@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604151189404</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Project setup">
+      <created>1604151359226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604151359226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,22 +105,26 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="544" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1604144278329" />
-    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604151188363">
+    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604151358302">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604149402030" />
-    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604151188363" />
+    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604151358302" />
     <state x="236" y="162" key="RollbackChangesDialog" timestamp="1604150549624">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="236" y="162" key="RollbackChangesDialog/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604150549624" />
-    <state x="19" y="196" key="Vcs.Push.Dialog.v2" timestamp="1604151310653">
+    <state x="19" y="196" key="Vcs.Push.Dialog.v2" timestamp="1604151380869">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="19" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604151310653" />
+    <state x="19" y="196" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604151380869" />
     <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604150570807">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604150570807" />
+    <state x="18" y="124" key="new project wizard" timestamp="1604151456732">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="18" y="124" key="new project wizard/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604151456732" />
   </component>
 </project>
