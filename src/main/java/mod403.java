@@ -1,5 +1,5 @@
-import edu.princeton.stdlib.StdIn;
-import edu.princeton.stdlib.StdOut;
+import princeton.stdlib.StdIn;
+import princeton.stdlib.StdOut;
 
 public class mod403 {
     public static void main(String[] args) {

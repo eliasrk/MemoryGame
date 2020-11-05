@@ -13,13 +13,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1363631-1d3c-440c-bfd1-33b8ed8198a2" name="Default Changelist" comment="">
+    <list default="true" id="f1363631-1d3c-440c-bfd1-33b8ed8198a2" name="Default Changelist" comment="Project setup">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod403.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod403.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +49,50 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elias\IdeaProjects\school\src\main\java" />
+      <recent name="C:\Users\Elias\IdeaProjects\school\src\test" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elias\IdeaProjects\school\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Aufgabe1">
+    <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe1" />
+      <module name="school" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mod403" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mod403" />
+      <module name="school" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aufgabe1" />
+        <item itemvalue="Application.mod403" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604154690346</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Project setup">
+      <created>1604600388367</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604600388367</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,31 +207,49 @@
     <option name="LAST_COMMIT_MESSAGE" value="Project setup" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="26" y="34" key="#Project_Structure" timestamp="1604600355199">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="26" y="34" key="#Project_Structure/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604600355199" />
     <state x="544" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604144278329">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="544" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1604144278329" />
-    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604154689487">
+    <state x="554" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604602536712">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="554" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602536712" />
+    <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604602185526">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602185526" />
+    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604601409092">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604149402030" />
-    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604154689487" />
-    <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1604152635241">
+    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604601409092" />
+    <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1604602043951">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604152635241" />
-    <state x="236" y="162" key="RollbackChangesDialog" timestamp="1604150549624">
+    <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602043951" />
+    <state x="236" y="162" key="RollbackChangesDialog" timestamp="1604601346990">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="236" y="162" key="RollbackChangesDialog/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604150549624" />
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1604154900308">
+    <state x="236" y="162" key="RollbackChangesDialog/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604601346990" />
+    <state x="334" y="35" key="SettingsEditor" timestamp="1604600644530">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604154900308" />
-    <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604150570807">
+    <state x="334" y="35" key="SettingsEditor/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604600644530" />
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1604600389324">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604600389324" />
+    <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604601340539">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604150570807" />
+    <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604601340539" />
     <state x="284" y="361" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604154890147">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
