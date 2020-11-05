@@ -13,7 +13,7 @@ package princeton;
  *
  ******************************************************************************/
 
-import edu.princeton.stdlib.Picture;
+import princeton.stdlib.Picture;
 
 import java.awt.*;
 

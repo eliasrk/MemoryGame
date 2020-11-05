@@ -1,6 +1,6 @@
 package princeton;
 
-import edu.princeton.stdlib.StdAudio;
+import princeton.stdlib.StdAudio;
 
 /*
  *  Compilation:  javac Tone.java

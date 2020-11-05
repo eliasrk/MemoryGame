@@ -1,7 +1,7 @@
 package princeton;
 
-import edu.princeton.stdlib.In;
-import edu.princeton.stdlib.Out;
+import princeton.stdlib.In;
+import princeton.stdlib.Out;
 
 /*
  *  Compilation:  javac-introcs Wget.java

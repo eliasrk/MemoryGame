@@ -1,7 +1,7 @@
 package princeton;
 
-import edu.princeton.stdlib.BinaryStdIn;
-import edu.princeton.stdlib.BinaryStdOut;
+import princeton.stdlib.BinaryStdIn;
+import princeton.stdlib.BinaryStdOut;
 
 /*
  *  Compilation:  javac Copy.java
