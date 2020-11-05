@@ -1,6 +1,6 @@
 package princeton;
 
-import edu.princeton.stdlib.StdDraw;
+import princeton.stdlib.StdDraw;
 
 /*
  *  Compilation:  javac RightTriangle.java

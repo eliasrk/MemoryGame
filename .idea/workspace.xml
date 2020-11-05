@@ -14,16 +14,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1363631-1d3c-440c-bfd1-33b8ed8198a2" name="Default Changelist" comment="Project setup">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod403.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod403.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Average.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/BouncingBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/BouncingBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Scale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Tone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Tone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Wget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Wget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,7 +61,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -187,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604600388367</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Project setup">
+      <created>1604602860174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604602860174</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,28 +236,28 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602185526" />
-    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604601409092">
+    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604602858649">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604149402030" />
-    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604601409092" />
-    <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1604602043951">
+    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602858649" />
+    <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1604602954695">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602043951" />
+    <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602954695" />
     <state x="236" y="162" key="RollbackChangesDialog" timestamp="1604601346990">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="236" y="162" key="RollbackChangesDialog/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604150549624" />
     <state x="236" y="162" key="RollbackChangesDialog/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604601346990" />
-    <state x="334" y="35" key="SettingsEditor" timestamp="1604600644530">
+    <state x="334" y="35" key="SettingsEditor" timestamp="1604602784017">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="334" y="35" key="SettingsEditor/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604600644530" />
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1604600389324">
+    <state x="334" y="35" key="SettingsEditor/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602784017" />
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1604602861795">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604600389324" />
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602861795" />
     <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604601340539">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
