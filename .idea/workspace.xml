@@ -15,13 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f1363631-1d3c-440c-bfd1-33b8ed8198a2" name="Default Changelist" comment="Project setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/BouncingBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/BouncingBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Copy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/RightTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Scale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Tone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Tone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Wget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Wget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Aufgabe1">
-    <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Aufgabe1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe1" />
       <module name="school" />
       <method v="2">
@@ -95,7 +90,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.mod403" />
       </list>
     </recent_temporary>
@@ -200,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604602860174</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Project setup">
+      <created>1604603200177</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604603200177</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,15 +233,15 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="554" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602536712" />
-    <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604602185526">
+    <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604603116642">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602185526" />
-    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604602858649">
+    <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604603116642" />
+    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1604603364616">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604149402030" />
-    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602858649" />
+    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604603364616" />
     <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1604602954695">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -254,10 +255,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="334" y="35" key="SettingsEditor/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602784017" />
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1604602861795">
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1604603374256">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602861795" />
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604603374256" />
     <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604601340539">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
