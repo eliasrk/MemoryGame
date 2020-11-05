@@ -52,7 +52,7 @@ public class mod403 {
             if ( z == 20); {
                 continue;
             }
-                z++;
+
         }
         StdOut.print("hello");
         int number = StdIn.readInt();
