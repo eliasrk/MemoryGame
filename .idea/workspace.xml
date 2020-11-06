@@ -14,14 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1363631-1d3c-440c-bfd1-33b8ed8198a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aufgabe3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/BouncingBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/BouncingBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Copy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Scale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Tone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Tone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/princeton/Wget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/princeton/Wget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,7 @@
       <recent name="C:\Users\Elias\IdeaProjects\school\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aufgabe2">
+  <component name="RunManager" selected="Application.aufgabe3">
     <configuration name="Aufgabe1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe1" />
       <module name="school" />
@@ -93,6 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="aufgabe3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aufgabe3" />
+      <module name="school" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mod403" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mod403" />
       <module name="school" />
@@ -102,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aufgabe3" />
         <item itemvalue="Application.Aufgabe2" />
         <item itemvalue="Application.mod403" />
       </list>
@@ -273,22 +275,26 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602954695" />
-    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1604606555280">
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1604675573882">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
-    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1604606555280">
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1604675573882" />
+    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1604675573882">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
-    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1604606555280">
+    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1604675573882" />
+    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1604675573882">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
-    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1604606555280">
+    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1604675573882" />
+    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1604675573882">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
+    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1604675573882" />
     <state x="236" y="162" key="RollbackChangesDialog" timestamp="1604601346990">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
