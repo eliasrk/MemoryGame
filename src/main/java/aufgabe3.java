@@ -12,9 +12,9 @@ public class aufgabe3 {
                 number = StdIn.readInt ();
                 while (number !=0)
                 {
-                    int remainder = number % 10;
-                    reverse = reverse * 10 + remainder;
-                    number = number/10;
+                    int remainder = number % 10;//% gives the decimal place
+                    reverse = reverse * 10 + remainder;//times it by 10 moves the number one decimal place left.
+                    number = number/10;//removes what has just been caculated
                 }
                 StdOut.println ( "Reverse of entered number:"  + reverse );
 
