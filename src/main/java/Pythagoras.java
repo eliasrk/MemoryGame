@@ -7,16 +7,16 @@ public class Pythagoras {
         int A = StdIn.readInt ();
         System.out.println("what length is B?");
         int B = StdIn.readInt ();
-        double C = Math.pow(A,2) + Math.pow(B,2);
-        C= Math.sqrt(C);
+        double C = Math.pow(A,2) + Math.pow(B,2);//A squared + B squared = C squared
+        C= Math.sqrt(C);// square root C
         System.out.println(C);
     }public static void Method2() {
         System.out.println("what length is B?");
         int B = StdIn.readInt ();
         System.out.println("what length is C?");
         int C = StdIn.readInt ();
-        double A = Math.pow(C,2)- Math.pow(B,2);
-        A= Math.sqrt(A);
+        double A = Math.pow(C,2)- Math.pow(B,2);//C squared - B squared = A squared
+        A= Math.sqrt(A);//square root A
         System.out.println(A);
     }
     public static void Method3(){
@@ -24,8 +24,8 @@ public class Pythagoras {
         int C = StdIn.readInt ();
         System.out.println("what length is A?");
         int A = StdIn.readInt ();
-        double B = Math.pow(C,2)- Math.pow(A,2);
-        B= Math.sqrt(B);
+        double B = Math.pow(C,2)- Math.pow(A,2);//C squared + A squared = B squared
+        B= Math.sqrt(B);//square root B
         System.out.println(B);
     }
     public static void main(String[] args) {
