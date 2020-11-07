@@ -17,9 +17,9 @@ public class Pascals_Triangle {
                 else
                     Middle = Middle*(i-j+1)/j;//position(j) in row - what row(i) +1 / postion in row(j)
 
-                System.out.print(Middle + " ");
+                System.out.print(Middle + " "); //spacing between numbers
             }
-            System.out.println("\n");
+            System.out.println("\n");//new row everytime a row is completed
         }
     }
 }
