@@ -13,9 +13,9 @@ public class Pascals_Triangle {
             for(j=0; j <= i; j++)//amount of numbers per row
             {
                 if (j==0 || i==0)
-                    Middle = 1;//if row is 1 or begining or ending of a row equals 1
+                    Middle = 1;//if row is 1 or beginning or ending of a row equals 1
                 else
-                    Middle = Middle*(i-j+1)/j;//
+                    Middle = Middle*(i-j+1)/j;//position(j) in row - what row(i) +1 / postion in row(j)
 
                 System.out.print(Middle + " ");
             }
