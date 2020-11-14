@@ -1,7 +1,7 @@
 import princeton.stdlib.StdIn;
 import princeton.stdlib.StdOut;
 
-public class mod403 {
+public class Mod403 {
     public static void main(String[] args) {
         System.out.println("hello world");
 

@@ -15,7 +15,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f1363631-1d3c-440c-bfd1-33b8ed8198a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pascals_Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PascalsTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aufgabe3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aufgabe3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/memory/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/memory/Memory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod403.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mod403.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zusatzaufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zusatzaufgabe2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pascals_Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pascals_Triangle" />
+    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PascalsTriangle" />
       <module name="school" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zusatzaufgabe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zusatzaufgabe2" />
+    <configuration name="Zusatzaufgabe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zusatzaufgabe2" />
       <module name="school" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,9 +129,9 @@
       <list>
         <item itemvalue="Application.Memory" />
         <item itemvalue="Application.Pythagoras" />
-        <item itemvalue="Application.Pascals_Triangle" />
+        <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.Zusatzaufgabe1" />
-        <item itemvalue="Application.zusatzaufgabe2" />
+        <item itemvalue="Application.Zusatzaufgabe2" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605339172691</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Project setup">
+      <created>1605341099767</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605341099767</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,35 +369,39 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="637" y="329" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604603116642" />
-    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1605339171617">
+    <state x="64" y="28" key="CommitChangelistDialog2" timestamp="1605341099088">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/0.1440.1280.680@0.0.1707.920" timestamp="1604149402030" />
-    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605339171617" />
+    <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605341099088" />
     <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604605169604" />
     <state x="64" y="28" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1604745937135" />
     <state x="634" y="215" key="FileChooserDialogImpl" timestamp="1604602954695">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="215" key="FileChooserDialogImpl/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602954695" />
-    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1604750727272">
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1605346298685">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605346298685" />
     <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
     <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1604750727272" />
-    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1604750727272">
+    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1605346298685">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605346298685" />
     <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
     <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1604750727272" />
-    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1604750727271">
+    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1605346298685">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605346298685" />
     <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
     <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1604750727271" />
-    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1604750727272">
+    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1605346298685">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605346298685" />
     <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604606555280" />
     <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1604750727272" />
     <state width="1663" height="300" key="GridCell.Tab.1.bottom" timestamp="1604744092272">
@@ -414,10 +429,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="334" y="35" key="SettingsEditor/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604602784017" />
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1605339174480">
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2" timestamp="1605341101882">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605339174480" />
+    <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605341101882" />
     <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920/288.1440.1280.680@0.0.1707.920" timestamp="1604605172821" />
     <state x="355" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1604745939562" />
     <state x="252" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604745784288">
@@ -443,9 +458,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="510" y="211" key="run.anything.popup/0.0.1707.920@0.0.1707.920" timestamp="1604692380494" />
-    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1604741445919">
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1605344957327">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/2560.92.1810.978@0.0.1707.920" timestamp="1605344957327" />
     <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1604741445919" />
   </component>
 </project>

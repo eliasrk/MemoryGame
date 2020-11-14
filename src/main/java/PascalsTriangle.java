@@ -1,6 +1,6 @@
 import princeton.stdlib.StdIn;
 
-public class Pascals_Triangle {
+public class PascalsTriangle {
     public static void main(String[] args) {
         int num;
         int j;

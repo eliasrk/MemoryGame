@@ -1,7 +1,7 @@
 import princeton.stdlib.StdIn;
 import princeton.stdlib.StdOut;
 
-public class zusatzaufgabe2 {
+public class Zusatzaufgabe2 {
     public static void main(String[] args) {
         int number,powerof, total = 0;
         StdOut. print ( "Enter a number of beans:" );

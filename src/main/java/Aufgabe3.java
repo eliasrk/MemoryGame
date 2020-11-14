@@ -1,7 +1,7 @@
 import princeton.stdlib.StdOut;
 import princeton.stdlib.StdIn;
 
-public class aufgabe3 {
+public class Aufgabe3 {
     public static void main(String[] args) {
 
 
