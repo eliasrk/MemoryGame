@@ -2,7 +2,7 @@ package memory;
 
 import princeton.stdlib.StdIn;
 
-public class memory3 {
+public class MemoryAttempt2 {
     public static void main(String[] args) {
 
 

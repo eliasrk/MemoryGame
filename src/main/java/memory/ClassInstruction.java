@@ -6,7 +6,7 @@ import princeton.stdlib.StdOut;
 import java.util.Random;
 
 
-public class Memory2 {
+public class ClassInstruction {
     public static int getNextRandom(int bounds){
         Random rng = new Random();
         rng.nextInt(bounds);

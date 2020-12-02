@@ -72,7 +72,7 @@
       <recent name="C:\Users\Elias\IdeaProjects\school\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemoryArray">
+  <component name="RunManager">
     <configuration name="Aufgabe1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe1" />
       <module name="school" />
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Memory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.Memory" />
+    <configuration name="ClassInstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory.ClassInstruction" />
       <module name="school" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Memory2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.Memory2" />
+    <configuration name="FinalMemoryGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory.FinalMemoryGame" />
       <module name="school" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.MemoryArray" />
+    <configuration name="MemoryAttempt1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory.MemoryAttempt1" />
+      <module name="school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryAttempt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memory.MemoryAttempt2" />
       <module name="school" />
       <extension name="coverage">
         <pattern>
@@ -126,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="memory3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.memory3" />
-      <module name="school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="memory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MemoryArray" />
-        <item itemvalue="Application.Memory2" />
-        <item itemvalue="Application.memory3" />
-        <item itemvalue="Application.Memory" />
+        <item itemvalue="Application.FinalMemoryGame" />
+        <item itemvalue="Application.ClassInstruction" />
+        <item itemvalue="Application.MemoryAttempt2" />
+        <item itemvalue="Application.MemoryAttempt1" />
         <item itemvalue="Application.Pythagoras" />
       </list>
     </recent_temporary>

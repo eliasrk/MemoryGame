@@ -2,7 +2,7 @@ package memory;
 
 import princeton.stdlib.StdIn;
 
-public class Memory {
+public class MemoryAttempt1 {
 
     public static void main(String[] args) {
         char[][] gameBoard1 = {{' ', '1', '2', '3', '4'},
