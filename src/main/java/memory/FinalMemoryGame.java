@@ -1,9 +1,7 @@
 package memory;
 
-
 import princeton.stdlib.StdIn;
 import princeton.stdlib.StdOut;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -15,14 +13,10 @@ public class FinalMemoryGame {
                 "(Bsp. 2142 vergleicht das Symbol In Zeile 2 und Spalte 1 mit dem Symbol in Zeile 4 und Spalte 2):");
         char[][] symbolArray = new char [5][5] ;
 
-        createGameBoard(4, 4,symbolArray);
-
-
+        createGameBoard(4, 4, symbolArray);
     }
 
     public static Integer[] randomNumb(Integer[] intArray) {
-
-
 
         List<Integer> intList = Arrays.asList(intArray);
 
@@ -33,7 +27,6 @@ public class FinalMemoryGame {
         return intArray;
     }
 
-
     public static int[][] createGameBoard(int rows, int cols, char[][]symbolArray) {
         /* code to make it larger
          * if I wanted to making it larger
@@ -42,10 +35,10 @@ public class FinalMemoryGame {
          **/
 
         //setting a columns at 4 however can be made larger
-
         int columns = 4;
         rows = columns + 1;
         cols = columns;
+
         //randomly picking from 1 to 16
         Integer[] intArray= { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
         //the options for the answer table to made out of
@@ -53,28 +46,20 @@ public class FinalMemoryGame {
         boolean fact = true;
         int  round = 1;
 
-
         randomNumb(intArray);
         //Creating answer array
-
             int count = 0;
             for (int row = 0; row < rows; row++) {
                 for (int col = 0; col < cols; col++) {
                     if (row != 0) {
                         symbolArray[row][col] = option[intArray[count]];
                         count++;
-
-
                     }
-
                 }
             }
 
-
-
             //Creating the gameboard.
         while (fact == true) {
-
             //eg number given by player 4589
             int position = StdIn.readInt();
             int position2, position4;
@@ -99,11 +84,8 @@ public class FinalMemoryGame {
             for (int header = 1; header < columns + 1; header++) {
                 if (header == 1) {
                     StdOut.print("  ");
-
                 }
-
                 StdOut.print(" " + header);
-
             }
 
             //making the var array aka the ? symbols.
@@ -111,7 +93,6 @@ public class FinalMemoryGame {
             for (int row = 0; row < rows; row++) {
                 for (int col = 0; col < cols; col++) {
                     if (row != 0) {
-
                         array[row][col] = '?';
                     }
                 }
@@ -119,7 +100,6 @@ public class FinalMemoryGame {
 
             //Displaying the array for the user
             for (int row = 0; row < rows; row++) {
-
                 //fixing spacing if size is changed by the user
                 if (row != 0) {
                     System.out.print(row + " ");
@@ -127,19 +107,15 @@ public class FinalMemoryGame {
                         System.out.print(" ");
                     }
                 }
-
                 for (int col = 0; col < cols; col++) {
                     int ten = row;
-
                     //fixing spacing for above column 10
                     if (col > 9) {
                         if (row < 10) {
                             while (ten != 0) {
-
                                 ten = ten / 10;
                                 System.out.print(" ");
                                 if (row > 9) {
-
                                 }
                             }
                         }
@@ -152,13 +128,11 @@ public class FinalMemoryGame {
 
                     if (row == position && col == position2) {
                         System.out.print(symbolArray[row][col] + " ");
-
                     } else if (row == position3 && col == position4) {
                         System.out.print(symbolArray[row][col] + " ");
-                    } else {
+                      } else {
                         System.out.print(array[row][col] + " ");
                     }
-
                 }
                 //fixing spacing
                 System.out.println(" ");
@@ -170,7 +144,6 @@ public class FinalMemoryGame {
                 System.out.println();
                 System.out.print(round + " mal versucht");
                 System.exit(1);
-
             }
                 else {
                     System.out.println("Leider kein Treffer" );
@@ -183,11 +156,8 @@ public class FinalMemoryGame {
                     position4--;
                     System.out.println(" ");
                     System.out.println("Neue Positionen ausprobieren");
-
                 round++;
-
                 }
-
             }
         return createGameBoard(4,4,symbolArray);
     }
