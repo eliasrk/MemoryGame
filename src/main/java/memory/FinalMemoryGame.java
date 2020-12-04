@@ -181,18 +181,3 @@ public class FinalMemoryGame {
         return createGameBoard(symbolArray,columns);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
