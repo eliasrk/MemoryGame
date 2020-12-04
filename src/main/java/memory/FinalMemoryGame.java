@@ -2,7 +2,6 @@ package memory;
 
 import princeton.stdlib.StdIn;
 import princeton.stdlib.StdOut;
-
 import static princeton.stdlib.StdRandom.shuffle;
 
 public class FinalMemoryGame {
