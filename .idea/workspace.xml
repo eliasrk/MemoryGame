@@ -14,8 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1363631-1d3c-440c-bfd1-33b8ed8198a2" name="Default Changelist" comment="Project setup">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/memory/FinalMemoryGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/memory/FinalMemoryGame.java" afterDir="false" />
     </list>

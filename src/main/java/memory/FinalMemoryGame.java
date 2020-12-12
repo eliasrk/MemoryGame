@@ -13,8 +13,18 @@ public class FinalMemoryGame {
             System.out.println(columns + " ist zu gröss");
             columns--;
         }
+        while(columns<4){
+            System.out.println(columns + " ist zu gröss");
+            columns++;
+        }
         char[][] symbolArray = new char [100][100];
         createGameBoard(symbolArray,columns);
+    }
+    public static void Welcome(){
+        System.out.println("den ´?´ verstecken sich Symbole, die paarweise vorkommen.Finden Sie diese!\n " +
+                "Wählen Sie Zwei Positionen zum Aufdecken in der Form:Zeile1Spalte1Zeile2Spalte2,\n" +
+                "(Bsp. 2142 vergleicht das Symbol In Zeile 2 und Spalte 1 mit dem Symbol in Zeile 4 und Spalte 2):");
+        System.out.println("wie gross?(4-6)?");
     }
     public static char[] Option(int columns){
 
@@ -55,12 +65,7 @@ public class FinalMemoryGame {
         }
         shuffle(option);
     return option;}
-    public static void Welcome(){
-        System.out.println("den ´?´ verstecken sich Symbole, die paarweise vorkommen.Finden Sie diese!\n " +
-                "Wählen Sie Zwei Positionen zum Aufdecken in der Form:Zeile1Spalte1Zeile2Spalte2,\n" +
-                "(Bsp. 2142 vergleicht das Symbol In Zeile 2 und Spalte 1 mit dem Symbol in Zeile 4 und Spalte 2):");
-        System.out.println("wie gross?(4-6)?");
-    }
+
     public static int[][] createGameBoard( char[][]symbolArray,int columns) {
         System.out.println("Positionen ausprobieren");
         //setting a columns at 4 however can be made larger.
@@ -132,19 +137,7 @@ public class FinalMemoryGame {
                 for (int col = 0; col < cols; col++) {
                     int ten = row;
                     //fixing spacing for above column 10.
-                    if (col > 9) {
-                        if (row < 10) {
-                            while (ten != 0) {
-                                ten = ten / 10;
-                                System.out.print(" ");
-                            }
-                        }
-                        if (row >= 10) {
-                            if (col >= 10) {
-                                System.out.print(" ");
-                            }
-                        }
-                    }
+
                     if (row == position && col == position2) {
                         System.out.print(symbolArray[row][col] + " ");
                     } else if (row == position3 && col == position4) {
@@ -171,8 +164,7 @@ public class FinalMemoryGame {
                     position4++;
                     System.out.println(position + ", " + position2  + " und " +
                             position3 + ", " + position4 + " passt nicht");
-                    position2--;
-                    position4--;
+
                     System.out.println(" ");
                     System.out.println("Neue Positionen ausprobieren");
                 round++;
