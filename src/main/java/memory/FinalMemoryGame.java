@@ -14,7 +14,7 @@ public class FinalMemoryGame {
             columns--;
         }
         while(columns<4){
-            System.out.println(columns + " ist zu gröss");
+            System.out.println(columns + " ist zu klein");
             columns++;
         }
         char[][] symbolArray = new char [100][100];
