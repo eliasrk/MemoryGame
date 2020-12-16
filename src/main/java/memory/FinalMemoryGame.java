@@ -2,29 +2,50 @@ package memory;
 
 import princeton.stdlib.StdIn;
 import princeton.stdlib.StdOut;
+
 import static princeton.stdlib.StdRandom.shuffle;
-
+final class split {
+    static int position,position2, position3, position4;
+    public split(int position,int position2,int  position3,int position4) {
+        this.position = position;
+        this.position2 = position2;
+        this.position3 = position3;
+        this.position4 = position4;
+    }
+}
 public class FinalMemoryGame {
-    public static void main(String[] args) {
-
-        Welcome();
-        int columns = StdIn.readInt();
-        while(columns>6){
-            System.out.println(columns + " ist zu gröss");
-            columns--;
-        }
-        while(columns<4){
-            System.out.println(columns + " ist zu klein");
-            columns++;
-        }
-        char[][] symbolArray = new char [100][100];
-        createGameBoard(symbolArray,columns);
+    static int columns,rows,cols;
+    static int round;
+    static boolean loop;
+    public static split numberSplit(){
+        int position,position2,position3,position4;
+        position = StdIn.readInt();
+        //creates second half(89).
+        position3 = position % 100;
+        //creates first half(45).
+        position = position /100;
+        //creates second half of first pair(5).
+        position2 = position %10;
+        //creates second half of second pair(9).
+        position4 = position3 %10;
+        //creates first half of first pair(4).
+        position = position/10;
+        //creates first half of second pair(8).
+        position3 = position3/10;
+        //for proper indexing
+        position2 = position2 -1;
+        position4 = position4 -1;
+        System.out.println();
+        return new split(position,position2,position3,position4);
     }
     public static void Welcome(){
         System.out.println("den ´?´ verstecken sich Symbole, die paarweise vorkommen.Finden Sie diese!\n " +
                 "Wählen Sie Zwei Positionen zum Aufdecken in der Form:Zeile1Spalte1Zeile2Spalte2,\n" +
                 "(Bsp. 2142 vergleicht das Symbol In Zeile 2 und Spalte 1 mit dem Symbol in Zeile 4 und Spalte 2):");
         System.out.println("wie gross?(4-6)?");
+        columns = StdIn.readInt() +1;
+        rows = columns + 1;
+        cols = columns;
     }
     public static char[] Option(int columns){
 
@@ -33,7 +54,6 @@ public class FinalMemoryGame {
         char[] option2;
         char[] option3 ={'§','$','%','&','(',')','=',':'};
         char[] option6;
-
 
         if(columns == 5){
             char[] five ={'#','A','c','<','>'};
@@ -64,112 +84,100 @@ public class FinalMemoryGame {
             System.arraycopy(option3, 0, option, option1.length, option3.length);
         }
         shuffle(option);
-    return option;}
 
-    public static int[][] createGameBoard( char[][]symbolArray,int columns) {
-        System.out.println("Positionen ausprobieren");
-        //setting a columns at 4 however can be made larger.
-        int rows = columns + 1;
-        int cols = columns;
+    return option;
+    }
+    public static char[][] Answerboard(char[][]symbolArray){
 
-        //the options for the answer table.
-        Option(columns);
-        boolean loop = true;
-        //round is which round the player is in.
-        int  round = 1;
-        //Count is for where in the char array to select from.
         int count = 0;
-        //Creating answer array
-            for (int row = 0; row < rows; row++) {
-                for (int col = 0; col < cols; col++) {
-                    if (row != 0) {
-                        symbolArray[row][col] = Option(columns)[count];
-                        count++;
-                    }
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
+                if (row != 0) {
+                    symbolArray[row][col] = Option(columns)[count];
+                    count++;
                 }
             }
-            //Creating the gameboard.
-        while (loop) {
-            //eg number given by player 4589.
-            int position = StdIn.readInt();
-            int position2, position4;
-            //creates second half(89).
-            int position3 = position % 100;
-            //creates first half(45).
-            position = position /100;
-            //creates second half of first pair(5).
-            position2 = position %10;
-            //creates second half of second pair(9).
-            position4 = position3 %10;
-            //creates first half of first pair(4).
-            position = position/10;
-            //creates first half of second pair(8).
-            position3 = position3/10;
-            //for proper indexing
-            position2 = position2 -1;
-            position4 = position4 -1;
+        }
+
+        return symbolArray;
+    }
+    public static char[][] Array(){
+
+        char[][] array = new char[rows][cols];
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
+                if (row != 0) {
+                    array[row][col] = '?';
+                }
+            }
+        }
+
+        return array;
+    }
+    public static void Check(char[][]symbolArray){
+        if (symbolArray[split.position][split.position2] == symbolArray[split.position3][split.position4]) {
+            System.out.print("Treffer, Super…");
             System.out.println();
-            //row and column number.
-            for (int header = 1; header < columns + 1; header++) {
+            System.out.print(round + " mal versucht");
+            loop = false;
+            System.exit(1);
+        }
+        else {
+            System.out.println("Leider kein Treffer" );
+            //adding and subtract 1 in position2 and 4 is due to indexing issues correct by line 94.
+            split.position2++;
+            split.position4++;
+            System.out.println(split.position + ", " + split.position2  + " und " +
+                    split.position3 + ", " + split.position4 + " passt nicht");
+            System.out.println("Neue Positionen ausprobieren");
+            round++;
+        }
+    }
+    public static int[][] createGameBoard(char[][]symbolArray) {
+        if (round ==0) {
+            System.out.println("Positionen ausprobieren");
+        }
+            numberSplit();
+
+        for (int header = 1; header < columns + 1; header++) {
                 if (header == 1) {
                     StdOut.print("  ");
                 }
                 StdOut.print(" " + header);
             }
-            //making the var array aka the ? symbols.
-            char[][] array = new char[rows][cols];
-            for (int row = 0; row < rows; row++) {
-                for (int col = 0; col < cols; col++) {
-                    if (row != 0) {
-                        array[row][col] = '?';
-                    }
-                }
-            }
-            //Displaying the array for the user.
-            for (int row = 0; row < rows; row++) {
-                //fixing spacing if size is changed by the user.
-                if (row != 0) {
-                    System.out.print(row + " ");
-                    if (row < 10) {
-                        System.out.print(" ");
-                    }
-                }
-                for (int col = 0; col < cols; col++) {
-                    int ten = row;
-                    //fixing spacing for above column 10.
 
-                    if (row == position && col == position2) {
-                        System.out.print(symbolArray[row][col] + " ");
-                    } else if (row == position3 && col == position4) {
-                        System.out.print(symbolArray[row][col] + " ");
-                      } else {
-                        System.out.print(array[row][col] + " ");
-                    }
-                }
-                //Fixing spacing.
-                System.out.println(" ");
-            }
-            //Checking system sees if.
-            if (symbolArray[position][position2] == symbolArray[position3][position4]) {
-                System.out.print("Treffer, Super…");
-                System.out.println();
-                System.out.print(round + " mal versucht");
-                loop = false;
-                System.exit(1);
-            }
-                else {
-                    System.out.println("Leider kein Treffer" );
-                    //adding and subtract 1 in position2 and 4 is due to indexing issues correct by line 94.
-                    position2++;
-                    position4++;
-                    System.out.println(position + ", " + position2  + " und " +
-                            position3 + ", " + position4 + " passt nicht");
 
-                    System.out.println(" ");
-                    System.out.println("Neue Positionen ausprobieren");
-                round++;
+            Array();
+        for (int row = 0; row < rows; row++) {
+            //fixing spacing if size is changed by the user.
+            if (row != 0) {
+                System.out.print(row + " ");
+                if (row < 10) {
+                    System.out.print(" ");
                 }
             }
-        return createGameBoard(symbolArray,columns);
+            for (int col = 0; col < cols; col++) {
+                if (row == split.position && col == split.position2) {
+                    System.out.print(symbolArray[row][col] + " ");
+                } else if (row == split.position3 && col == split.position4) {
+                    System.out.print(symbolArray[row][col] + " ");
+                } else {
+                    System.out.print(Array()[row][col] + " ");
+                }
+            }
+            //Fixing spacing.
+            System.out.println(" ");
+        }
+
+        Check(symbolArray);
+
+        return createGameBoard(symbolArray);
+    }
+    public static void main(String[] args) {
+        char[][] symbolArray = new char [10][10];
+        Welcome();
+        Answerboard(symbolArray);
+        createGameBoard(symbolArray);
+
     }
 }
