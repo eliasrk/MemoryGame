@@ -62,12 +62,12 @@ public class FinalMemoryGame {
         char[] option6;
 
         if(columns == 8){
-            char[] five ={'#','A','c','<','>','Ä','z','v','s','h'
+            char[] eight ={'#','A','c','<','>','Ä','z','v','s','h'
                     ,'~','y','o','!','@','|','*','_','-','B'
                     ,'^','°','²','³'};
-            option2 = new char[five.length + option3.length];
-            System.arraycopy(five, 0, option2, 0, five.length);
-            System.arraycopy(option3, 0, option2, five.length, option3.length);
+            option2 = new char[eight.length + option3.length];
+            System.arraycopy(eight, 0, option2, 0, eight.length);
+            System.arraycopy(option3, 0, option2, eight.length, option3.length);
 
             option1 = option2;
             option = new char[option1.length + option2.length];
