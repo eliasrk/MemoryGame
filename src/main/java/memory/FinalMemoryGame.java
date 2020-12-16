@@ -42,8 +42,14 @@ public class FinalMemoryGame {
         System.out.println("den ´?´ verstecken sich Symbole, die paarweise vorkommen.Finden Sie diese!\n " +
                 "Wählen Sie Zwei Positionen zum Aufdecken in der Form:Zeile1Spalte1Zeile2Spalte2,\n" +
                 "(Bsp. 2142 vergleicht das Symbol In Zeile 2 und Spalte 1 mit dem Symbol in Zeile 4 und Spalte 2):");
-        System.out.println("wie gross?(4-6)?");
-        columns = StdIn.readInt() +1;
+        System.out.println("wie gross?(4,6,8)?");
+        columns = StdIn.readInt();
+        while (columns>8){
+            columns--;
+        }
+        while (columns<4){
+            columns++;
+        }
         rows = columns + 1;
         cols = columns;
     }
@@ -52,11 +58,13 @@ public class FinalMemoryGame {
         char[] option;
         char[] option1;
         char[] option2;
-        char[] option3 ={'§','$','%','&','(',')','=',':'};
+        char[] option3 ={'§','$','%','l','(',')','=',':'};
         char[] option6;
 
-        if(columns == 5){
-            char[] five ={'#','A','c','<','>'};
+        if(columns == 8){
+            char[] five ={'#','A','c','<','>','Ä','z','v','s','h'
+                    ,'~','y','o','!','@','|','*','_','-','B'
+                    ,'^','°','²','³'};
             option2 = new char[five.length + option3.length];
             System.arraycopy(five, 0, option2, 0, five.length);
             System.arraycopy(option3, 0, option2, five.length, option3.length);
@@ -67,7 +75,7 @@ public class FinalMemoryGame {
             System.arraycopy(option2, 0, option, option1.length, option2.length);
 
         }else if(columns ==6){
-            char[] six ={'#','A','c','<','>','Ä','z','v','s','h','Ü'};
+            char[] six ={'#','A','c','<','>','Ä','z','v','s','h'};
             option6 = new char[six.length + option3.length];
             System.arraycopy(six, 0, option6, 0, six.length);
             System.arraycopy(option3, 0, option6, six.length, option3.length);
@@ -85,7 +93,7 @@ public class FinalMemoryGame {
         }
         shuffle(option);
 
-    return option;
+        return option;
     }
     public static char[][] Answerboard(char[][]symbolArray){
 
@@ -137,17 +145,17 @@ public class FinalMemoryGame {
         if (round ==0) {
             System.out.println("Positionen ausprobieren");
         }
-            numberSplit();
+        numberSplit();
 
         for (int header = 1; header < columns + 1; header++) {
-                if (header == 1) {
-                    StdOut.print("  ");
-                }
-                StdOut.print(" " + header);
+            if (header == 1) {
+                StdOut.print("  ");
             }
+            StdOut.print(" " + header);
+        }
 
 
-            Array();
+        Array();
         for (int row = 0; row < rows; row++) {
             //fixing spacing if size is changed by the user.
             if (row != 0) {
@@ -174,7 +182,7 @@ public class FinalMemoryGame {
         return createGameBoard(symbolArray);
     }
     public static void main(String[] args) {
-        char[][] symbolArray = new char [10][10];
+        char[][] symbolArray = new char [100][100];
         Welcome();
         Answerboard(symbolArray);
         createGameBoard(symbolArray);
